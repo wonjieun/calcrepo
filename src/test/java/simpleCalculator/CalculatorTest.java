@@ -12,7 +12,12 @@ public class CalculatorTest {
 		calc.add(10, 20);
 		assertEquals(30, calc.getResult());
 	}
-	
+	@Test
+	public void testMulti(){
+		Calculator calc=new Calculator();
+		calc.multi(10, 20);
+		assertEquals(200,calc.getResult());
+	}
 	@Test
 	public void testSub() {
 		Calculator calc = new Calculator();
