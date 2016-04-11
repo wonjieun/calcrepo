@@ -24,5 +24,12 @@ public class CalculatorTest {
 		calc.sub(10, 20);
 		assertEquals(-10, calc.getResult());
 	}
+	@Test
+	public void testNamerge() {
+		Calculator calc = new Calculator();
+		calc.namerge(5, 3);
+		assertEquals(2, calc.getResult());
+	}
+	
 
 }

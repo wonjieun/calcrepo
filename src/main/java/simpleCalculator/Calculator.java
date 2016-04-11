@@ -13,6 +13,11 @@ public class Calculator {
 	public void multi(int x, int y) {
 		result=x*y;
 	}
+	
+	public void namerge(int x, int y) {
+		result=x%y;
+	}
+	
 	public int getResult() {
 		return result;
 	}
